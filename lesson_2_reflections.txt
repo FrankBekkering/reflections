@@ -13,3 +13,10 @@ How can you use the staging area to make sure you have one commit per logical ch
 1) git diff without arguments will show the differences between working and staging
 2) git diff --staged shows differences between staged and latest commit
 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+1) app modifications that may or may not be implemented
+	1a) allow for changes that are not yet are part of the master branch
+2) individuals from a team working on different aspects of an app
+	2a) allow each to add functionality without changing the master branch
+
