@@ -1,0 +1,10 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+1) A hidden .git directory is created.
+	1-a) contains the meta-data for the repository.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+1) I'm not sure? if I were to change the contents of a file that was staged would the original in the working directory change too? if not then it's an obvious benefit - if it does I see no reason for the staging area to exist.
+2) If it is a temp area for possible commits that are not yet fully tested you could add/remove files depending on test results.
+
