@@ -26,3 +26,10 @@ How do the diagrams help you visualize the branch structure?
 1) using a diagram of the branch structure would help you keep track of the various aspects of the code you and your
    collegues are working on.
 2) the diagram would make it easier to visualize the parts of the program and what's been done since a branch was started
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+1) the files involved are combined together with common elements being maintained, removed elements being removed and new items being added
+2)  	a. In the diagram we show that the new master/HEAD has 2 parents because the commits are now both part of the master hierarchy
+	b. commits from both branches are accessible through the now combined branch (they will be displayed in git log output based on timestamp)
+
