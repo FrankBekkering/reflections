@@ -7,6 +7,7 @@ How is the staging area different from the working directory and the repository?
 
 1) I'm not sure? if I were to change the contents of a file that was staged would the original in the working directory change too? if not then it's an obvious benefit - if it does I see no reason for the staging area to exist.
 2) If it is a temp area for possible commits that are not yet fully tested you could add/remove files depending on test results.
+3) I can put multiple files here and then commit them as a single group - ie 1 commit for a collection of files
 
 How can you use the staging area to make sure you have one commit per logical change?
 
