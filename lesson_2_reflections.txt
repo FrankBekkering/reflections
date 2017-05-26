@@ -33,3 +33,9 @@ What is the result of merging two branches together? Why do we represent it in t
 2)  	a. In the diagram we show that the new master/HEAD has 2 parents because the commits are now both part of the master hierarchy
 	b. commits from both branches are accessible through the now combined branch (they will be displayed in git log output based on timestamp)
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+1) quickly combines files and does a fairly good job at highlighting the conflict areas so you can see which were changed & choose which lines to keep.
+2) if there are a number of differences and files I guess it could be cumbersome going through the files and finding and making the adjustments
+   it may be easier at that point to just swap out the old files with the new ones and go from there.
+
