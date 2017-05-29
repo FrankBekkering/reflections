@@ -19,3 +19,7 @@ Describe the differences between forks, clones, and branches. When would you use
     collaborating on a project you would clone their repository, and if you were adding something new/untested and 
     or experimenting with new stuff you would create a new branch witch may later be merged with the master.
     
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+1). allows you to work with it while offline and merge changes when you're back online.
+
