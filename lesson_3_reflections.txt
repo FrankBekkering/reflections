@@ -9,3 +9,13 @@ Why might you want to always pull changes manually rather than having Git automa
 1). if other team members are working on branches that may or may not be part of the final product you wont want to see them
 2). depending on your location, connectivity and size of data transfer you may not necessarily  want to perform a large pull
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+1). a fork is a copy or another users repository copy from their GitHub repository to your GitHub repository - it will reference the original author.
+2). a clone is a copy (either from a remote or local) of a repository
+3). a branch is an extension off of the master of a repository
+
+4). if you wanted to add to but not impact someone elses work you would fork their repository, while if you were
+    collaborating on a project you would clone their repository, and if you were adding something new/untested and 
+    or experimenting with new stuff you would create a new branch witch may later be merged with the master.
+    
