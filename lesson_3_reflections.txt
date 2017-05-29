@@ -4,3 +4,8 @@ local?
 1). a remote would be good if you are working on a project from multiple locations or computers
 2). also if you are working with other developers on the same project
 
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+1). if other team members are working on branches that may or may not be part of the final product you wont want to see them
+2). depending on your location, connectivity and size of data transfer you may not necessarily  want to perform a large pull
+
